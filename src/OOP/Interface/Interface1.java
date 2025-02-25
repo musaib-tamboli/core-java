@@ -1,4 +1,4 @@
-package OOP;
+package OOP.Interface;
 
 interface Car
 {
