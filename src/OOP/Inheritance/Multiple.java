@@ -1,6 +1,6 @@
-//package Inheritance;
+//package OOP.Inheritance;
 
-// The  child Class having more than 1 Parent Class Then it is Known as Multiple Inheritance
+// The  child Class having more than 1 Parent Class Then it is Known as Multiple OOP.Inheritance
 
 interface Animal
 {

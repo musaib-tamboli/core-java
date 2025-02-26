@@ -1,4 +1,4 @@
-package Inheritance;
+package OOP.Inheritance;
 
 class Animal
 {
@@ -45,6 +45,6 @@ public class Hierarchical
         g.eat();
         g.maee();
 
-//        In Hierarchical Inheritance , the Subclass Only Access to Superclass 
+//        In Hierarchical OOP.Inheritance , the Subclass Only Access to Superclass
     }
 }
