@@ -120,3 +120,21 @@ catch (ArithmeticException e) { // ✅ Good practice
 ---
 
 Let me know if you want an in-depth explanation of **specific exception types or advanced concepts! 🚀**
+
+
+
+## **Checked vs Unchecked Exceptions in Java**
+
+| Feature                 | **Checked Exception (`extends Exception`)** | **Unchecked Exception (`extends RuntimeException`)** |
+|-------------------------|--------------------------------------------|----------------------------------------------|
+| **Definition**          | Exceptions that are **checked at compile-time**. | Exceptions that occur **at runtime** and are not checked at compile-time. |
+| **Requires `throws` keyword** | Yes, must be declared using `throws`. | No, can be handled but not mandatory. |
+| **Needs `try-catch` block** | Yes, must be handled using `try-catch`. | No, but can be handled if needed. |
+| **Type of error**       | **External issues** (e.g., file not found, database connection failure). | **Programming logic errors** (e.g., null pointer, division by zero). |
+| **Examples**           | `IOException`, `SQLException`, `ClassNotFoundException`. | `NullPointerException`, `ArithmeticException`, `ArrayIndexOutOfBoundsException`. |
+| **Handling approach**   | Must be explicitly handled by the programmer. | The programmer should fix the code logic to avoid these exceptions. |
+| **Execution impact**    | Application **must handle** these exceptions to run smoothly. | Occurs due to **coding mistakes**, can crash the program if not handled. |
+| **Extends**            | `Exception` class. | `RuntimeException` class. |
+| **Best suited for**    | Handling external factors beyond the program's control. | Handling logical errors in the program. |
+
+This comparison clearly differentiates **Checked vs Unchecked Exceptions** in Java. Let me know if you need more details!

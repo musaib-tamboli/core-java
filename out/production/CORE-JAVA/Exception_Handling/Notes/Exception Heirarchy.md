@@ -22,7 +22,7 @@ Checked  Unchecked       JVM Errors
 1. **`Throwable`** (Parent class of all exceptions and errors)
     - **`Exception`** → Represents recoverable exceptions (e.g., `IOException`)
         - **Checked Exceptions** (`IOException`, `SQLException`)
-        - **Unchecked Exceptions (RuntimeException)`** (`NullPointerException`, `ArithmeticException`)
+        - **Unchecked Exceptions (RuntimeException)** (`NullPointerException`, `ArithmeticException`)
     - **`Error`** → Represents serious problems that the program **cannot recover from** (e.g., `OutOfMemoryError`)
 
 ---

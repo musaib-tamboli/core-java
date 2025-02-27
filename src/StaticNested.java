@@ -11,7 +11,7 @@ public class StaticNested
     }
 
     public static void main(String[] args) {
-        Outer.InnerStatic istatic = new Outer.InnerStatic(); // Here Use Direct Class Name , Not a object of Outer class
-        istatic.disp1();
+//        Outer.InnerStatic istatic = new Outer.InnerStatic(); // Here Use Direct Class Name , Not a object of Outer class
+//        istatic.disp1();
     }
 }
