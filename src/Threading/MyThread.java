@@ -8,6 +8,7 @@ class A extends Thread
             System.out.print("Hi  \t");
             try {
                 Thread.sleep(10);
+
             }catch(InterruptedException e) {
                 e.printStackTrace();
             }
