@@ -1,0 +1,41 @@
+# Compiled Java Class Files
+*.class
+
+# Log files and VM crash logs
+*.log
+hs_err_pid*
+replay_pid*
+
+# Package Files (Optional: remove if committing raw dependencies)
+*.jar
+*.war
+*.ear
+*.nar
+
+# Build Tool Output Directories
+/target/
+/build/
+/bin/
+/out/
+.gradle/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+.factorypath
+
+# VS Code
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
